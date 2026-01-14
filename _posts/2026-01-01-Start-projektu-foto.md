@@ -53,11 +53,17 @@ I nadal wszystko wygląda poprawnie.
 
 ## Bloki typu notice
 
-{% include notice.html text="To jest **zwykły notice** – idealny na informacje." %}
+## Bloki typu notice
 
-{% include notice.html type="warning" text="⚠️ To jest **warning** – np. ważna uwaga techniczna." %}
+{: .notice}
+To jest **zwykły notice** – idealny na informacje.
 
-{% include notice.html type="success" text="✅ To jest **success** – np. coś się udało." %}
+{: .notice--warning}
+⚠️ To jest **warning** – np. ważna uwaga techniczna.
+
+{: .notice--success}
+✅ To jest **success** – np. coś się udało.
+
 
 ---
 
