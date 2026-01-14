@@ -4,9 +4,9 @@ main:
     url: https://ipflow.pl/
   - title: "Parkrun Toruń Team"
     url: https://parkrun-torun.pl/
-  - title: "Archiwum"
-    url: /year-archive/
+  #- title: "Archiwum"
+  #  url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  - title: "Sitemap"
-     url: /sitemap/
+  # - title: "Sitemap"
+  #   url: /sitemap/
