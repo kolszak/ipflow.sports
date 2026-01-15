@@ -33,4 +33,27 @@ feature_row:
 ---
 
 {% include feature_row id="intro" type="center" %}
+
+{% assign latest = site.posts.first %}
+
+<div class="feature__wrapper">
+  <div class="feature__item">
+    {% if latest.header.teaser %}
+      <img src="{{ latest.header.teaser | relative_url }}" alt="{{ latest.title }}">
+    {% endif %}
+
+    <h2 class="archive__item-title">
+      <a href="{{ latest.url | relative_url }}">{{ latest.title }}</a>
+    </h2>
+
+    <p class="archive__item-excerpt">
+      {{ latest.excerpt | strip_html | truncate: 160 }}
+    </p>
+
+    <a href="{{ latest.url | relative_url }}" class="btn btn--primary">
+      Czytaj najnowszy wpis
+    </a>
+  </div>
+</div>
+
 {% include feature_row %}
