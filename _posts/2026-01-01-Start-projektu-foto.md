@@ -14,8 +14,8 @@ toc: true
 toc_label: "Spis treści"
 toc_icon: "list"
 header:
-  teaser: /assets/images/parkrun500x300.jpg
-  overlay_image: /assets/images/parkrun500x300.jpg
+  teaser: /assets/images/parkrun.jpg
+  overlay_image: /assets/images/parkrun.jpg
   overlay_filter: 0.4
   caption: "Foto: ipflow.pl"
 ---
