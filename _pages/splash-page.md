@@ -15,7 +15,7 @@ intro:
 intro2:
     - excerpt: "***Gdzie mnie spotkasz:"
 feature_row:
-  - image_path: /assets/images/splash/parkrun-splash.jpg
+  - image_path: /assets/images/splash/parkrun-splash.JPG
     alt: "Parkrun"
     title: "Parkrun Toruń"
     excerpt: "Parkrun w **Toruniu**"
