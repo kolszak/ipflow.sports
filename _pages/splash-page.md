@@ -1,5 +1,5 @@
 ---
-#title: "Splash Page"
+title: ""
 layout: splash
 permalink: /
 header:
