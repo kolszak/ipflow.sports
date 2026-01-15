@@ -31,6 +31,6 @@ feature_row:
     title: "Pływanie"
     excerpt: "Czasem basen"
 ---
-{% include feature_row_latest.html %}
 {% include feature_row id="intro" type="center" %}
+{% include feature_row_latest.html type="left" %}
 {% include feature_row %}
