@@ -13,7 +13,6 @@ header:
 intro:
     - excerpt: "Tutaj znajdziesz linki do zdjęć z imprez sportowych na których fotografowałem.<br/>
                 Gdzie mnie znajdziesz:"
-
 feature_row:
   - image_path: /assets/images/parkrun.jpg
     alt: "Parkrun"
@@ -34,4 +33,4 @@ feature_row:
 ---
 
 {% include feature_row id="intro" type="center" %}
-{% include feature_row type="center" %}
+{% include feature_row %}
