@@ -3,19 +3,6 @@
 search: false
 ---
 
-// -----------------------
-// Splash-page custom
-// -----------------------
-.layout--splash .feature__wrapper {
-  min-height: 60vh; // wysokość rzędu
-}
-
-.layout--splash .feature__image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
