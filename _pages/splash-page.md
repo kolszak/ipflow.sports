@@ -15,12 +15,13 @@ intro:
 intro2:
     - excerpt: "***Gdzie mnie spotkasz:"
 feature_row:
-  - image_path: /assets/images/parkrun.jpg
+  - image_path: /assets/images/splash/parkrun-splash.jpg
     alt: "Parkrun"
     title: "Parkrun Toruń"
     excerpt: "Parkrun w **Toruniu**"
-  - image_path: /assets/images/parkrun.jpg
-    #image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    image_caption: "Image courtesy of [Unsplash](https://parkrun.pl/)"
+  - image_path: /assets/images/splash/ulica-splash.jpg
+    #image_caption: "Image courtesy of [Unsplash](https://run-torun/)"
     alt: "Biegi uliczne"
     title: "Biegi uliczne"
     excerpt: "Biegi **uliczne** w okolicach Torunia."
@@ -28,7 +29,7 @@ feature_row:
     type: "center"
     btn_label: "Zobacz listę zdjęć"
     btn_class: "btn--info"
-  - image_path: /assets/images/parkrun.jpg
+  - image_path: /assets/images/splash/basen-splash.jpg
     title: "Pływanie"
     excerpt: "Czasem basen"
 ---
