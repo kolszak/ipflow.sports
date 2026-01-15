@@ -8,13 +8,7 @@
 {% if post %}
 <div class="feature__wrapper">
 
-  <div class="feature__item">
-    {% if post.header.teaser %}
-      <div class="feature__image">
-        <img src="{{ post.header.teaser | relative_url }}"
-             alt="{{ post.title }}">
-      </div>
-    {% endif %}
+  <div class="feature__item feature__item--left">
 
     <div class="feature__content">
       <h2 class="archive__item-title">
@@ -24,7 +18,7 @@
       </h2>
 
       <p class="archive__item-excerpt">
-        {{ post.excerpt | strip_html | truncate: 160 }}
+        {{ post.excerpt | strip_html | truncate: 170 }}
       </p>
 
       <a href="{{ post.url | relative_url }}"
@@ -32,6 +26,14 @@
         Czytaj najnowszy wpis
       </a>
     </div>
+
+    {% if post.header.teaser %}
+      <div class="feature__image">
+        <img src="{{ post.header.teaser | relative_url }}"
+             alt="{{ post.title }}">
+      </div>
+    {% endif %}
+
   </div>
 
 </div>
