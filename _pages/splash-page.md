@@ -34,5 +34,6 @@ feature_row:
 ---
 {% include feature_row id="intro" type="center" %}
 {% include feature_row_latest.html type="left" %}
+{% include author.html author=page.author %}
 {% include feature_row id="intro2" type="center" %}
 {% include feature_row %}
