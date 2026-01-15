@@ -1,69 +1,38 @@
-{% for f in page.feature_row %}
+{% comment %}
+  Feature row – najnowszy post (1 kolumna)
+  Zgodne z Minimal Mistakes
+{% endcomment %}
 
-  {% if f.dynamic == "latest" %}
-    {% assign p = site.posts.first %}
+{% assign post = site.posts.first %}
 
-    <div class="feature__item">
-      {% if p.header.teaser %}
-        <img src="{{ p.header.teaser | relative_url }}" alt="{{ p.title }}">
-      {% endif %}
+{% if post %}
+<div class="feature__wrapper">
 
+  <div class="feature__item">
+    {% if post.header.teaser %}
+      <div class="feature__image">
+        <img src="{{ post.header.teaser | relative_url }}"
+             alt="{{ post.title }}">
+      </div>
+    {% endif %}
+
+    <div class="feature__content">
       <h2 class="archive__item-title">
-        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
       </h2>
 
       <p class="archive__item-excerpt">
-        {{ p.excerpt | strip_html | truncate: 140 }}
+        {{ post.excerpt | strip_html | truncate: 160 }}
       </p>
 
-      <a href="{{ p.url | relative_url }}" class="btn btn--primary">
-        Czytaj
+      <a href="{{ post.url | relative_url }}"
+         class="btn btn--primary">
+        Czytaj najnowszy wpis
       </a>
     </div>
+  </div>
 
-  {% else %}
-
-{% if include.id %}
-  {% assign feature_row = page[include.id] %}
-{% else %}
-  {% assign feature_row = page.feature_row %}
-{% endif %}
-
-<div class="feature__wrapper">
-
-  {% for f in feature_row %}
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      <div class="archive__item">
-        {% if f.image_path %}
-          <div class="archive__item-teaser">
-            <img src="{{ f.image_path | relative_url }}"
-                 alt="{% if f.alt %}{{ f.alt }}{% endif %}">
-            {% if f.image_caption %}
-              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-            {% endif %}
-          </div>
-        {% endif %}
-
-        <div class="archive__item-body">
-          {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
-          {% endif %}
-
-          {% if f.excerpt %}
-            <div class="archive__item-excerpt">
-              {{ f.excerpt | markdownify }}
-            </div>
-          {% endif %}
-
-          {% if f.url %}
-            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-  
-  {% endif %}
-
-{% endfor %}
 </div>
+{% endif %}
