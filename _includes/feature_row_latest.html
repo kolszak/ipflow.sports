@@ -3,7 +3,12 @@
   Zgodne z Minimal Mistakes
 {% endcomment %}
 
+{% comment %}
 {% assign post = site.posts.first %}
+{% endcomment %}
+
+{% assign posts_in_category = site.categories.foto %}
+{% assign post = posts_in_category | first %}
 
 {% if post %}
 <div class="feature__wrapper">
