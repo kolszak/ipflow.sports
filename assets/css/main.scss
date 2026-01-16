@@ -20,14 +20,14 @@ search: false
 .feature__wrapper--grid-center {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  gap: 1rem;
 
-  max-width: 1300px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
 
-  padding-top: 3rem;     // ⬅️ ODDYCHA OD GÓRY
-  padding-bottom: 3rem;  // ⬅️ ODDYCHA OD DOŁU
+  padding-top: 1rem;     // ⬅️ ODDYCHA OD GÓRY
+  padding-bottom: 1rem;  // ⬅️ ODDYCHA OD DOŁU
 
   align-items: center;
 }
