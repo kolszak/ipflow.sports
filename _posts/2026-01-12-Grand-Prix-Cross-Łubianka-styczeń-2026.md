@@ -5,7 +5,8 @@ date: 2026-01-03
 categories:
   - foto
 tags:
-  - Lubianka
+  - Łubianka
+  - cross
 layout: single
 author_profile: true
 toc: true
