@@ -8,6 +8,10 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.splash-section {
+  padding: 4rem 0;
+}
+
 .archive__item-teaser img {
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -17,8 +21,14 @@ search: false
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
+
   max-width: 1200px;
-  margin: 0 auto; 4rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 3rem;     // ⬅️ ODDYCHA OD GÓRY
+  padding-bottom: 3rem;  // ⬅️ ODDYCHA OD DOŁU
+
   align-items: center;
 }
 
