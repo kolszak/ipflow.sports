@@ -19,10 +19,10 @@ locale                   : "pl-PL"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : #"Biegowa lista eventów"
 title_separator          : "&#124;"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "sports.ipflow.pl"
 name                     : "Karol Olszewski"
 description              : "Amatorska fotografia sportowa - głównie lekkoatletyka"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://sports.ipflow.pl"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"/assets/images/parkrun500x300.jpg" #500x300
