@@ -11,7 +11,7 @@
 {% assign post = posts_in_category | first %}
 
 {% if post %}
-<div class="feature__wrapper">
+<div class="feature__wrapper feature__wrapper--grid-center">
 
   <!-- LEWA KOLUMNA: TEKST -->
   <div class="feature__item feature__item--half">
@@ -23,7 +23,7 @@
       </h2>
 
       <p class="archive__item-excerpt">
-        {{ post.excerpt | strip_html | truncate: 370 }}
+        {{ post.excerpt | strip_html | truncate: 170 }}
       </p>
 
       <a href="{{ post.url | relative_url }}" class="btn btn--primary">

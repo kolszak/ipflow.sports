@@ -12,3 +12,16 @@ search: false
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
+
+.feature__wrapper--grid-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.feature__wrapper--grid-center .feature__item {
+  width: 100%;
+}
