@@ -1,7 +1,7 @@
 ---
 title: "Turniej 4 Parkrunów część II "
 excerpt: "Super lokalny turniej. 4 pakruny (2 extra, Nowy Rok, I Święto. Niezła zabawa, czas emocje, odpoczynek"
-date: 2025-12-26
+date: 2025-12-27
 categories:
   - foto
 tags:
