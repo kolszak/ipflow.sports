@@ -17,8 +17,8 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "pl-PL"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Biegowa lista eventów"
-title_separator          : "-"
+title                    : #"Biegowa lista eventów"
+title_separator          : #"-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Karol Olszewski"
 description              : "Amatorska fotografia sportowa - głównie lekkoatletyka"
