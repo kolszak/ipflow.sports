@@ -17,14 +17,14 @@ search: false
 .feature__wrapper--grid-center {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 3rem;
 
-  max-width: 1300px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 
-  padding-top: 1rem;     // ⬅️ ODDYCHA OD GÓRY
-  padding-bottom: 1rem;  // ⬅️ ODDYCHA OD DOŁU
+  padding-top: 3rem;     // ⬅️ ODDYCHA OD GÓRY
+  padding-bottom: 3rem;  // ⬅️ ODDYCHA OD DOŁU
 
   align-items: center;
 }
