@@ -13,7 +13,7 @@ header:
   teaser: /assets/images/lubianka.png
   overlay_image: /assets/images/lubianka.png
   overlay_filter: 0.4
-  caption: "Foto: ipflow.pl"
+  caption: "Foto: sports.ipflow.pl"
 ---
  
 ## Wprowadzenie

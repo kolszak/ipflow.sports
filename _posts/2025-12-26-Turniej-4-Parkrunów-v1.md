@@ -14,7 +14,7 @@ header:
   teaser: /assets/images/parkrun.jpg
   overlay_image: /assets/images/parkrun.jpg
   overlay_filter: 0.4
-  caption: "Foto: ipflow.pl"
+  caption: "Foto: sports.ipflow.pl"
 ---
 
 ## Wprowadzenie
