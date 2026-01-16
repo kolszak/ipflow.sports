@@ -35,5 +35,5 @@ feature_row:
 ---
 {% include feature_row id="intro" type="center" %}
 {% include feature_row_latest.html %}
-#{% include feature_row id="intro2" type="center" %}
+{% include feature_row id="intro2" type="center" %}
 {% include feature_row %}
