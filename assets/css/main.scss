@@ -8,9 +8,6 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.splash-section {
-  padding: 1rem auto;
-}
 
 .archive__item-teaser img {
   aspect-ratio: 1 / 1;
@@ -22,7 +19,7 @@ search: false
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 
-  max-width: 1280px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
 
